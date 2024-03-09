@@ -1,4 +1,4 @@
-# Andis Dev
+# QTuan Dev
 ## Tools common
 
 
@@ -70,7 +70,9 @@ CREATE TABLE laravel.dbo.dmkh (
 ## Output
 
 $table->integer('ong_ba')->nullable();
+
 $table->string('ma_nvbh')->nullable();
+
 $table->timestamp('datetime0')->useCurrent();
 
 
